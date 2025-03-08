@@ -87,6 +87,8 @@ public class userinterface {
                             System.err.println("gagal menambahkan update data");
                         }
                         System.out.println("-------------------------------------------");
+                    }else {
+                        System.err.println("mahasiswa dengan nim: " + key + "tidak ada di data bese");
                     }
                 break;
                 case "D":
